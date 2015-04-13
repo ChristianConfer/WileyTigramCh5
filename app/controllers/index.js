@@ -31,7 +31,7 @@ function doOpen() {
 
 var user = Alloy.createModel('User');
 
-user.login("cidm4385_tigram_admin", "cidm4385", function(_response) {
+user.login("coolguy", "coolguy", function(_response) {
 	
 	if(_response.success)
 	{

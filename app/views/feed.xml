@@ -1,4 +1,12 @@
+<!-- feed.xml 
+     building the feed view -->
 <Alloy>
-	<View class="container">
-	</View>
+	<Tab id="feedTable" title="Feed">
+		<Window id="feedWindow" title="Feed">
+			<RightNavButton platform="ios">
+				<Button id="cameraButton">Camera</Button>
+			</RightNavButton>
+			<TableView id="feedTable"></TableView>
+		</Window>
+	</Tab>
 </Alloy>
